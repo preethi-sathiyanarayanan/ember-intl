@@ -19,7 +19,7 @@
   "homepage": "https://ember-intl.github.io/ember-intl/",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ember-intl/ember-intl.git"
+    "url": "git+ssh://git@github.com/preethi-sathiyanarayanan/ember-intl.git"
   },
   "scripts": {
     "start": "ember serve",
@@ -44,7 +44,6 @@
     "broccoli-source": "^3.0.0",
     "broccoli-stew": "^3.0.0",
     "calculate-cache-key-for-tree": "^2.0.0",
-    "cldr-core": "^36.0.0",
     "ember-auto-import": "^1.5.3",
     "ember-cli-babel": "^7.18.0",
     "ember-cli-typescript": "^4.0.0-rc.1",
