@@ -13,13 +13,13 @@
   "author": "jason.mitchell.w@gmail.com",
   "license": "MIT",
   "directories": {
-    "doc": "doc",
+    "lib": "lib",
     "test": "tests"
   },
   "homepage": "https://ember-intl.github.io/ember-intl/",
   "repository": {
     "type": "git",
-    "url": "http://github.com/ember-intl/ember-intl.git"
+    "url": "git+ssh://git@github.com/ember-intl/ember-intl.git"
   },
   "scripts": {
     "start": "ember serve",
@@ -125,5 +125,9 @@
   "ember-addon": {
     "configPath": "tests/dummy/config",
     "demoURL": "https://ember-intl.github.io/ember-intl/"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ember-intl/ember-intl/issues"
+  },
+  "main": "index.js"
 }
