@@ -32,8 +32,7 @@
     "test": "yarn run tests-node && ember test",
     "test-node": "yarn tests-node",
     "testall": "yarn run tests-node && ember try:each",
-    "prettier": "prettier --single-quote --print-width 120 --write \"{blueprints,config,lib,app,addon,addon-test-support,tests,tests-node}/**/*.js\"",
-    "postpack": "ember ts:clean"
+    "prettier": "prettier --single-quote --print-width 120 --write \"{blueprints,config,lib,app,addon,addon-test-support,tests,tests-node}/**/*.js\""
   },
   "dependencies": {
     "broccoli-caching-writer": "^3.0.3",
