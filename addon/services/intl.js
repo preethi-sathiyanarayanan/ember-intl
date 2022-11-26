@@ -89,7 +89,7 @@ export default Service.extend(Evented, {
   init() {
     this._super(...arguments);
 
-    const initialLocale = get(this, 'locale') || ['en-us'];
+    const initialLocale = get(this, 'locale') || ['en'];
 
     this.setLocale(initialLocale);
     this._owner = getOwner(this);
